@@ -7,7 +7,7 @@
             <app-crear-citas (nuevaCita)="agregarCita($event)"></app-crear-citas>
         </div>
         <div class="col-lg-6">
-            <app-list-citas></app-list-citas>
+            <app-list-citas [listadoCitas]="listCitas"></app-list-citas>
         </div>
     </div>
     
